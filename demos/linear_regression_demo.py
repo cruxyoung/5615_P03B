@@ -45,5 +45,5 @@ print('R-squared score (training): {:.3f}'
      .format(linreg.score(X_train, y_train)))
 print('R-squared score (test): {:.3f}'
      .format(linreg.score(X_test, y_test)))
-a = 
+
 print(linreg.predict([[fruits.values[1][2],fruits.values[1][3]	,	fruits.values[1][5]	,	fruits.values[1][7]]]))

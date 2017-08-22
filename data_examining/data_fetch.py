@@ -15,5 +15,5 @@ def fetch_data(filename):
 
 
 if __name__ == '__main__':
-    a = fetch_data('../source_datasets/Supermarket_customer.csv')
-    print(a.values)
+    a = fetch_data('../source_datasets/supermarket.csv')
+    print(a.columns.values.tolist())
