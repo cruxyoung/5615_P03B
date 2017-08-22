@@ -14,6 +14,6 @@ def fetch_data(filename):
         return 'file type not supported'
 
 
-
-a = fetch_data('../source_datasets/Supermarket_customer.csv')
-print()
+if __name__ == '__main__':
+    a = fetch_data('../source_datasets/Supermarket_customer.csv')
+    print(a.values)
