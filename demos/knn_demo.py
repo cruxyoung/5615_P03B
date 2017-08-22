@@ -4,6 +4,7 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+
 '''
 The normal process of a marchine learning including:
 1. transforming the data
