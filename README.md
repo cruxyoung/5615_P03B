@@ -1,4 +1,4 @@
-SVM-Classifier
+SVM-Classifier(example)
 ==============
 
 Example code for how to write a SVM classifier in MATLAB.  
