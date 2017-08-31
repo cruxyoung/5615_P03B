@@ -3,7 +3,7 @@ To run the code, run python main.py<br/>
 To list the all the datasets available use:<br/>
 list<br/>
 To load one dataset, use:<br/>
-fetch <dataset name><br/>
+fetch  "dataset name" <br/>
 To print all the feature name:<br/>
 print<br/>
 To have a look on different figures about dataset:<br/>
