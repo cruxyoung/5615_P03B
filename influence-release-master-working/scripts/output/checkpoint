@@ -1,0 +1,2 @@
+model_checkpoint_path: "mnist_logreg_lbfgs-checkpoint-0"
+all_model_checkpoint_paths: "mnist_logreg_lbfgs-checkpoint-0"
