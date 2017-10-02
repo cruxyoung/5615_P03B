@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import pandas as pd
 from visualization.visual_utils import distribution_fig, box_whisker, histo
-
+from scripts.rbf_test import rbf_svm_influence
 
 
 
@@ -95,3 +95,6 @@ if __name__ == '__main__':
                 distribution_fig(customer=customer)
                 box_whisker(customer)
                 histo(customer)
+        elif cmd[0].lower() == 'influ_fig':
+            rbf_svm_influence()
+
