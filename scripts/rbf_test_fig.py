@@ -60,23 +60,23 @@ def generate_fig():
     sns.set_style('white')
     fontsize=14
 
-    fig, axs = plt.subplots(1, 2, sharex=True, sharey=False, figsize=(6, 3))
+    fig, axs = plt.subplots(1, sharex=True, sharey=False, figsize=(6, 3))
 
     num_train = len(flipped_idx)
     color_vec = np.array(['g'] * num_train)
     color_vec[flipped_idx] = 'r'
     color_vec = list(color_vec)
 
-    axs[0].scatter(distances, rbf_predicted_loss_diffs, color=color_vec)
-    axs[0].set_ylim(-0.03, 0.03)
+    axs.scatter(distances, rbf_predicted_loss_diffs, color=color_vec)
+    axs.set_ylim(-0.03, 0.03)
     # c = pow(10,-1000000000000)
     # print(c)
     # axs[0].set_ylim(-0.03*c, 0.03*c)
 
-    axs[0].set_yticks((-0.03, 0, 0.03))
-    axs[0].ticklabel_format(style='sci', scilimits=(0,0), axis='y')
-    axs[0].set_xlabel('Euclidean distance', fontsize=fontsize)
-    axs[0].set_ylabel('$-\mathcal{I}_\mathrm{up, loss} \ /\ n$', fontsize=fontsize)
+    axs.set_yticks((-0.03, 0, 0.03))
+    axs.ticklabel_format(style='sci', scilimits=(0,0), axis='y')
+    axs.set_xlabel('Euclidean distance', fontsize=fontsize)
+    axs.set_ylabel('$-\mathcal{I}_\mathrm{up, loss} \ /\ n$', fontsize=fontsize)
 
     # axs[1].scatter(distances, inception_predicted_loss_diffs, color=color_vec)
     # axs[1].set_ylim(-0.0005, 0.0005)
