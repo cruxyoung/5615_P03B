@@ -71,9 +71,8 @@ def load_animals(num_train_ex_per_class=300,
     else:
         # data_filename = os.path.join(BASE_DIR, '0dataset_%s_train-%s_test-%s%s.npz' % ('-'.join(classes), num_train_ex_per_class, num_test_ex_per_class, valid_str))
 
-        data_filename = os.path.join(BASE_DIR, 'fake_data.npz')
-        # print(BASE_DIR  )
-        # data_filename = os.path.join('scripts/data/fake_data.npz')
+        # data_filename = os.path.join(BASE_DIR, 'fake_data.npz')
+        data_filename = os.path.join('scripts/data/fake_data.npz')
 
     num_classes = len(classes)
     num_train_examples = num_train_ex_per_class * num_classes

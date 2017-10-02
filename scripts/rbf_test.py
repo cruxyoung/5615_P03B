@@ -89,7 +89,7 @@ def rbf_svm_influence():
     # print(L_test)
     ### Compare top 5 influential examples from each network
     # 462
-    test_idx = 50
+    test_idx = 40
 
     ## RBF
     # weight_decay = 0.001

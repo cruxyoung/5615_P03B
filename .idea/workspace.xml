@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d429de4b-a1cb-4b2b-bb8e-bb01b12ce0b9" name="Default" comment="basic visualizasion added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/tid_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/output/50.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/output/tid_80.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/load_animals.py" afterPath="$PROJECT_DIR$/scripts/load_animals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/rbf_test_fig.py" afterPath="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/rbf_test.py" afterPath="$PROJECT_DIR$/scripts/rbf_test.py" />
     </list>
     <ignored mask="*.pyc" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +29,11 @@
     <SUITE FILE_PATH="coverage/project$Unittests_for_datatest_TestDataFetch_test_fetch_data_xlsx.coverage" NAME="Unittests for datatest.TestDataFetch.test_fetch_data_xlsx Coverage Results" MODIFIED="1503886838493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/project$load_animals.coverage" NAME="load_animals Coverage Results" MODIFIED="1506912084986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$datatest.coverage" NAME="datatest Coverage Results" MODIFIED="1503378936869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitest" />
-    <SUITE FILE_PATH="coverage/project$rbf_test_fig.coverage" NAME="rbf_test_fig Coverage Results" MODIFIED="1506913222976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/project$rbf_test_fig.coverage" NAME="rbf_test_fig Coverage Results" MODIFIED="1506914062902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$linear_regression_demo.coverage" NAME="linear_regression_demo Coverage Results" MODIFIED="1503410937674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/project$data_fetch.coverage" NAME="data_fetch Coverage Results" MODIFIED="1506853236311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_examining" />
     <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1506912495724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$rbf_test.coverage" NAME="rbf_test Coverage Results" MODIFIED="1506913398965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/project$rbf_test.coverage" NAME="rbf_test Coverage Results" MODIFIED="1506914203444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.47124183">
@@ -57,11 +61,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="load_animals.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="load_animals.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+                <state relative-caret-position="414">
+                  <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
@@ -89,11 +93,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+                <state relative-caret-position="183">
+                  <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -203,10 +207,10 @@
         <option value="$PROJECT_DIR$/visualization/visual_utils.py" />
         <option value="$PROJECT_DIR$/influence/genericNeuralNet.py" />
         <option value="$PROJECT_DIR$/influence/smooth_hinge.py" />
-        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/scripts/load_animals.py" />
         <option value="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
+        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
+        <option value="$PROJECT_DIR$/scripts/load_animals.py" />
       </list>
     </option>
   </component>
@@ -248,6 +252,18 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,6 +447,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -438,7 +455,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -838,16 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/project56/lib/python3.6/posixpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -874,10 +881,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="183">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
