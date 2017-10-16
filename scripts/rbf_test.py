@@ -56,14 +56,7 @@ def rbf_svm_influence():
     Y_train = (np.copy(image_data_sets.train.labels)-1) * 2 - 1
     Y_test = (np.copy(image_data_sets.test.labels)-1) * 2 - 1
 
-    # train = DataSet(X_train, Y_train)
-    # test = DataSet(X_test, Y_test)
 
-
-    # Y_train = np.copy(image_data_sets.train.labels) * 2 - 1
-    # Y_test = np.copy(image_data_sets.test.labels) * 2 - 1
-
-    # print(image_data_sets.train.labels)
 
     num_train = X_train.shape[0]
     num_test = X_test.shape[0]
@@ -89,7 +82,7 @@ def rbf_svm_influence():
     # print(L_test)
     ### Compare top 5 influential examples from each network
     # 462
-    test_idx = 40
+    test_idx = 50
 
     ## RBF
     # weight_decay = 0.001

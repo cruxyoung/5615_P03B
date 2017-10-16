@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+from rbf_test import rbf_svm_influence
+from rbf_test_fig import generate_fig
 
 
 class Influ(object):
@@ -33,14 +35,22 @@ class Influ(object):
         np.savez_compressed('data/fake_data', X_train=npX_train, Y_train=npY_train, X_test=npX_test, Y_test=npY_test)
 
     def cal_influe(self):
-        pass
+        rbf_svm_influence()
+
+
 
 
     def visualization(self):
-        pass
-
+        generate_fig()
 
 
 test = Influ()
-test.load_data('../source_datasets/supermarket.csv')
-print(test.dataset)
+# test.load_data('../source_datasets/supermarket_600.csv')
+# test.load_data('../source_datasets/fruit_data.txt')
+
+
+# label = "shops_used"
+# test.convert(feature, label=label)
+test.cal_influe()
+# test.visualization()
+# print(test.dataset)

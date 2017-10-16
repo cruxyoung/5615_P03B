@@ -65,14 +65,8 @@ def load_animals(num_train_ex_per_class=300,
     else:
         valid_str = '_valid-%s' % num_valid_examples
 
-    if classes is None:
-        classes = ['dog', 'cat', 'bird', 'fish', 'horse', 'monkey', 'zebra', 'panda', 'lemur', 'wombat']
-        data_filename = os.path.join(BASE_DIR, 'dataset_train-%s_test-%s%s.npz' % (num_train_ex_per_class, num_test_ex_per_class, valid_str))
-    else:
-        # data_filename = os.path.join(BASE_DIR, '0dataset_%s_train-%s_test-%s%s.npz' % ('-'.join(classes), num_train_ex_per_class, num_test_ex_per_class, valid_str))
 
-        # data_filename = os.path.join(BASE_DIR, 'fake_data.npz')
-        data_filename = os.path.join('scripts/data/fake_data.npz')
+    data_filename = os.path.join('data/fake_data.npz')
 
     num_classes = len(classes)
     num_train_examples = num_train_ex_per_class * num_classes
@@ -171,73 +165,6 @@ def load_animals(num_train_ex_per_class=300,
     return base.Datasets(train=train, validation=validation, test=test)
 
 
-def load_koda():
-    num_channels = 3
-    img_side = 299
-
-    data_filename = os.path.join(BASE_DIR, 'dataset_koda.npz')
-
-    if os.path.exists(data_filename):
-        print('Loading Koda from disk...')
-        f = np.load(data_filename)
-        X = f['X']
-        Y = f['Y']
-    else:
-        # Returns all class 0
-        print('Reading Koda from raw images...')
-
-        image_files = [image_file for image_file in os.listdir(os.path.join(BASE_DIR, 'koda')) if (image_file.endswith('.jpg'))]
-        # Hack to get the image files in the right order
-        # image_files = [image_file for image_file in os.listdir(os.path.join(BASE_DIR, 'koda')) if (image_file.endswith('.jpg') and not image_file.startswith('124'))]
-        # image_files += [image_file for image_file in os.listdir(os.path.join(BASE_DIR, 'koda')) if (image_file.endswith('.jpg') and image_file.startswith('124'))]
 
 
-        num_examples = len(image_files)
-        X = np.zeros([num_examples, img_side, img_side, num_channels])
-        Y = np.zeros([num_examples])
-
-        class_idx = 0
-        for counter, image_file in enumerate(image_files):
-            img_path = os.path.join(BASE_DIR, 'koda', image_file)
-            fill(X, Y, counter, class_idx, img_path, img_side)
-
-        X = preprocess_input(X)
-
-        np.savez(data_filename, X=X, Y=Y)
-
-    return X, Y
-    
-
-def load_dogfish_with_koda():        
-    classes = ['dog', 'fish']
-    X_test, Y_test = load_koda()
-
-    data_sets = load_animals(num_train_ex_per_class=900, 
-                 num_test_ex_per_class=300,
-                 num_valid_ex_per_class=0,
-                 classes=classes)
-    train = data_sets.train
-    validation = data_sets.validation
-    test = DataSet(X_test, Y_test)
-
-    return base.Datasets(train=train, validation=validation, test=test)
-
-
-def load_dogfish_with_orig_and_koda():
-    classes = ['dog', 'fish']
-    X_test, Y_test = load_koda()
-    X_test = np.reshape(X_test, (X_test.shape[0], -1))
-
-    data_sets = load_animals(num_train_ex_per_class=900, 
-                 num_test_ex_per_class=300,
-                 num_valid_ex_per_class=0,
-                 classes=classes)
-    train = data_sets.train
-    validation = data_sets.validation
-
-    test = DataSet(
-        np.concatenate((data_sets.test.x, X_test), axis=0), 
-        np.concatenate((data_sets.test.labels, Y_test), axis=0))
-
-    return base.Datasets(train=train, validation=validation, test=test)
 

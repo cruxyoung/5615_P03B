@@ -602,7 +602,7 @@ class GenericNeuralNet(object):
             fhess_p=self.get_fmin_hvp,
             callback=cg_callback,
             avextol=1e-8,
-            maxiter=100) 
+            maxiter=100)
 
         return self.vec_to_list(fmin_results)
 
