@@ -11,25 +11,19 @@ import sklearn.linear_model as linear_model
 import sklearn.preprocessing as preprocessing
 import scipy
 import scipy.linalg as slin
-import scipy.sparse.linalg as sparselin
-import scipy.sparse as sparse
-
 from load_animals import load_animals
 
 import tensorflow as tf
 from tensorflow.contrib.learn.python.learn.datasets import base
 
 from sklearn.metrics.pairwise import rbf_kernel
-from sklearn.metrics.pairwise import linear_kernel
 
-# from influence.inceptionModel import BinaryInceptionModel
 from influence.smooth_hinge import SmoothHinge
-# from influence.binaryLogisticRegressionWithLBFGS import BinaryLogisticRegressionWithLBFGS
 import influence.dataset as dataset
 from influence.dataset import DataSet
-# from influence.dataset_poisoning import generate_inception_features
 
-def rbf_svm_influence():
+def rbf_svm_influence(gamma = None,
+                      test_idx = None):
 
     num_classes = 2
     # num_train_ex_per_class = 781
@@ -38,16 +32,11 @@ def rbf_svm_influence():
     num_train_ex_per_class = 450
     num_test_ex_per_class = 150
 
-    dataset_name = 'dogfish_%s_%s' % (num_train_ex_per_class, num_test_ex_per_class)
+    # dataset_name = 'dogfish_%s_%s' % (num_train_ex_per_class, num_test_ex_per_class)
     image_data_sets = load_animals(
         num_train_ex_per_class=num_train_ex_per_class,
         num_test_ex_per_class=num_test_ex_per_class,
         classes=['dog', 'fish'])
-
-
-    # image_data_sets =
-
-
 
     ### Generate kernelized feature vectors
     X_train = image_data_sets.train.x
@@ -67,22 +56,21 @@ def rbf_svm_influence():
     # 0.000013 current best for fdata
     # 0.00078best for fakedata600
     # gamma = 0.000013
-    gamma = 0.00078
+    if gamma is None:
+        gamma = 0.00078
     # gamma = 0.05
     weight_decay = 0.0001
 
     K = rbf_kernel(X_stacked, gamma = gamma / num_train)
     # K = linear_kernel(X_stacked)
 
-    print(K)
     L = slin.cholesky(K, lower=True)
-    print(L)
     L_train = L[:num_train, :num_train]
     L_test = L[num_train:, :num_train]
-    # print(L_test)
     ### Compare top 5 influential examples from each network
-    # 462
-    test_idx = 50
+    # choose the training dataset as standard
+    if test_idx is None:
+        test_idx = 50
 
     ## RBF
     # weight_decay = 0.001
@@ -148,7 +136,7 @@ def rbf_svm_influence():
     params_feed_dict = {}
     params_feed_dict[rbf_model.W_placeholder] = hinge_W
     rbf_model.sess.run(rbf_model.set_params_op, feed_dict=params_feed_dict)
-
+    # get value of influence function
     rbf_predicted_loss_diffs = rbf_model.get_influence_on_test_loss(
         [test_idx],
         np.arange(len(rbf_model.data_sets.train.labels)),
@@ -156,18 +144,16 @@ def rbf_svm_influence():
 
 
     x_test = X_test[test_idx, :]
-    print(x_test)
-
     y_test = Y_test[test_idx]
-    # print(len(y_test))
-
+    # euclidean distance for visualization
     distances = dataset.find_distances(x_test, X_train)
+    # flipped_idx indicates if the label of training is identical to one of chosen test_idx
     flipped_idx = Y_train != y_test
-    # print(rbf_predicted_loss_diffs)
+
     rbf_margins_test = rbf_model.sess.run(rbf_model.margin, feed_dict=rbf_model.all_test_feed_dict)
     rbf_margins_train = rbf_model.sess.run(rbf_model.margin, feed_dict=rbf_model.all_train_feed_dict)
 
-
+    # save the data for visualization
     np.savez(
         'output/rbf_results',
         test_idx=test_idx,
@@ -178,10 +164,8 @@ def rbf_svm_influence():
         rbf_predicted_loss_diffs=rbf_predicted_loss_diffs,
     )
 
-    # print(test_idx)
-    # print(distances)
-    print(rbf_predicted_loss_diffs)
     from rbf_test_fig import generate_fig
+
     generate_fig()
 
 if __name__ == '__main__':

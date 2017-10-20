@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d429de4b-a1cb-4b2b-bb8e-bb01b12ce0b9" name="Default" comment="basic visualizasion added">
+    <list default="true" id="d429de4b-a1cb-4b2b-bb8e-bb01b12ce0b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/Influ.py" afterPath="$PROJECT_DIR$/scripts/Influ.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/rbf_test.py" afterPath="$PROJECT_DIR$/scripts/rbf_test.py" />
     </list>
     <ignored mask="*.pyc" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +23,7 @@
     <SUITE FILE_PATH="coverage/5615_pro$main.coverage" NAME="main Coverage Results" MODIFIED="1508134869039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$linear_regression_demo.coverage" NAME="linear_regression_demo Coverage Results" MODIFIED="1503410937674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/project$rbf_test.coverage" NAME="rbf_test Coverage Results" MODIFIED="1506914203444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/5615_pro$Influ.coverage" NAME="Influ Coverage Results" MODIFIED="1508141054654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/5615_pro$Influ.coverage" NAME="Influ Coverage Results" MODIFIED="1508482747357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$load_animals.coverage" NAME="load_animals Coverage Results" MODIFIED="1506912084986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$rbf_test_fig.coverage" NAME="rbf_test_fig Coverage Results" MODIFIED="1506914062902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$data_fetch.coverage" NAME="data_fetch Coverage Results" MODIFIED="1506853236311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_examining" />
@@ -34,7 +36,7 @@
           <file leaf-file-name="genericNeuralNet.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/influence/genericNeuralNet.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10296">
+                <state relative-caret-position="10764">
                   <caret line="598" column="26" lean-forward="false" selection-start-line="598" selection-start-column="14" selection-end-line="598" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
@@ -56,8 +58,8 @@
           <file leaf-file-name="Influ.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/Influ.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="568">
-                  <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+                <state relative-caret-position="479">
+                  <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -68,7 +70,7 @@
           <file leaf-file-name="data_transform.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/data_transform.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
+                <state relative-caret-position="432">
                   <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
@@ -84,7 +86,7 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1080">
+                <state relative-caret-position="1278">
                   <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#48#0" expanded="true" />
@@ -106,7 +108,7 @@
           <file leaf-file-name="visual_utils.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/visualization/visual_utils.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
+                <state relative-caret-position="846">
                   <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
@@ -115,23 +117,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="load_animals.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2808">
-                  <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+                <state relative-caret-position="1278">
+                  <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -139,11 +129,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rbf_test_fig.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="rbf_test_fig.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/rbf_test_fig.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+                <state relative-caret-position="90">
+                  <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -193,9 +183,9 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
         <option value="$PROJECT_DIR$/scripts/load_animals.py" />
-        <option value="$PROJECT_DIR$/scripts/Influ.py" />
-        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
         <option value="$PROJECT_DIR$/influence/genericNeuralNet.py" />
+        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
+        <option value="$PROJECT_DIR$/scripts/Influ.py" />
       </list>
     </option>
   </component>
@@ -226,6 +216,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,7 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503418037582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before further integration">
+      <created>1508481700800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508481700800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,7 +437,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27096114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -504,7 +501,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic command line tool added" />
     <MESSAGE value="basic visualizasion added" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic visualizasion added" />
+    <MESSAGE value="before further integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="before further integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18090">
           <caret line="1055" column="4" lean-forward="false" selection-start-line="1055" selection-start-column="4" selection-end-line="1055" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +746,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/data_transform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="432">
           <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -758,19 +756,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="1278">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rbf_test_fig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,41 +771,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualization/visual_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/influence/smooth_hinge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/influence/genericNeuralNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10296">
+        <state relative-caret-position="10764">
           <caret line="598" column="26" lean-forward="false" selection-start-line="598" selection-start-column="14" selection-end-line="598" selection-end-column="26" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -839,11 +799,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/Influ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="479">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization/visual_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rbf_test_fig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

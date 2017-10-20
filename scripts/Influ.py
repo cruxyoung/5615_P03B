@@ -35,7 +35,7 @@ class Influ(object):
         np.savez_compressed('data/fake_data', X_train=npX_train, Y_train=npY_train, X_test=npX_test, Y_test=npY_test)
 
     def cal_influe(self):
-        rbf_svm_influence()
+        rbf_svm_influence(test_idx=20)
 
 
 
