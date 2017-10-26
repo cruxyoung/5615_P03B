@@ -22,6 +22,7 @@ import IPython
 import tensorflow as tf
 import math
 
+
 from .genericNeuralNet import GenericNeuralNet, variable, variable_with_weight_decay
 
 def log_loss(x, t):

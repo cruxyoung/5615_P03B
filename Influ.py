@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+
 from .scripts.rbf_test import rbf_svm_influence
 from .scripts.rbf_test_fig import generate_fig
 
@@ -33,6 +34,7 @@ class Influ(object):
         npY_test = y_test.values
 
         np.savez_compressed('fake_data', X_train=npX_train, Y_train=npY_train, X_test=npX_test, Y_test=npY_test)
+        
 
     def cal_influe(self, test_idx=None, gamma=None):
         rbf_svm_influence(test_idx=test_idx,gamma=gamma)
@@ -54,3 +56,4 @@ if __name__ == '__main__':
     test.cal_influe(50)
     # test.visualization()
     # print(test.dataset)
+

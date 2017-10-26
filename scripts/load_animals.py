@@ -11,6 +11,7 @@ from keras.preprocessing import image
 from ..influence.dataset import DataSet
 from ..influence.inception_v3 import preprocess_input
 
+
 BASE_DIR = 'data' # TODO: change
 
 def fill(X, Y, idx, label, img_path, img_side):
@@ -66,7 +67,9 @@ def load_animals(num_train_ex_per_class=300,
         valid_str = '_valid-%s' % num_valid_examples
 
 
+
     data_filename = os.path.join('fake_data.npz')
+
     num_classes = len(classes)
     num_train_examples = num_train_ex_per_class * num_classes
     num_test_examples = num_test_ex_per_class * num_classes
