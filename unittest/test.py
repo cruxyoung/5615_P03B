@@ -1,4 +1,4 @@
-from Influ import Influ
+from test.Influ import Influ
 import unittest
 from pandas import DataFrame
 import os.path
@@ -39,6 +39,7 @@ class TestDataFetch(unittest.TestCase):
         test.convert(feature, label)
         test.cal_influe(10)
 
+
     def test_visualization(self):
         test = Influ()
         test.load_data('supermarket_600.csv')
@@ -56,8 +57,10 @@ class TestDataFetch(unittest.TestCase):
         label = "shops_used"
         test.convert(feature, label)
         test.cal_influe(10)
+        test.visualization(0.05)
         if os.path.exists("fake_data.npz"):
             os.remove("fake_data.npz")
+
 
 
 if __name__ == '__main__':
