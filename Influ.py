@@ -42,8 +42,8 @@ class Influ(object):
 
 
 
-    def visualization(self):
-        generate_fig()
+    def visualization(self, scale = None):
+        generate_fig(scale = scale)
 
 if __name__ == '__main__':
     test = Influ()

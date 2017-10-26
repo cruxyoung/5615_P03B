@@ -22,7 +22,7 @@ from .load_animals import load_animals
 from ..influence.image_utils import plot_flat_colorimage, plot_flat_colorgrad
 
 
-def generate_fig():
+def generate_fig(scale = None):
     num_classes = 2
     # num_train_ex_per_class = 330
     # num_test_ex_per_class = 110
@@ -68,12 +68,14 @@ def generate_fig():
     color_vec = list(color_vec)
 
     axs.scatter(distances, rbf_predicted_loss_diffs, color=color_vec)
-    axs.set_ylim(-0.03, 0.03)
+    if scale is None:
+        scale = 0.03
+    axs.set_ylim(-scale, scale)
     # c = pow(10,-1000000000000)
     # print(c)
     # axs[0].set_ylim(-0.03*c, 0.03*c)
 
-    axs.set_yticks((-0.03, 0, 0.03))
+    axs.set_yticks((-scale, 0, scale))
     axs.ticklabel_format(style='sci', scilimits=(0,0), axis='y')
     axs.set_xlabel('Euclidean distance', fontsize=fontsize)
     axs.set_ylabel('$-\mathcal{I}_\mathrm{up, loss} \ /\ n$', fontsize=fontsize)
