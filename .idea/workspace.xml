@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d429de4b-a1cb-4b2b-bb8e-bb01b12ce0b9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/Wholesale customers data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/fruit_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/knn_demo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/linear_regression_demo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/visual_expri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/browser_feature.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data_input.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/environment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/steps/browser_feature.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/steps/data_input.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/steps/steps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source_datasets/Online Retail.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source_datasets/fruit_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source_datasets/supermarket.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source_datasets/test.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source_datasets/wholesale.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/Influ.py" afterPath="$PROJECT_DIR$/Influ.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project.iml" afterPath="$PROJECT_DIR$/.idea/project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/Influ.py" afterPath="$PROJECT_DIR$/scripts/Influ.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/rbf_test.py" afterPath="$PROJECT_DIR$/scripts/rbf_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/rbf_test_fig.py" afterPath="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
     </list>
     <ignored mask="*.pyc" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +36,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project$Unittests_in_datatest_py.coverage" NAME="Unittests in datatest.py Coverage Results" MODIFIED="1503886864178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/5615_pro$rbf_test.coverage" NAME="rbf_test Coverage Results" MODIFIED="1508135423014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/5615_final$Influ.coverage" NAME="Influ Coverage Results" MODIFIED="1509000765741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/project$Unittests_for_datatest_TestDataFetch_test_fetch_data_xlsx.coverage" NAME="Unittests for datatest.TestDataFetch.test_fetch_data_xlsx Coverage Results" MODIFIED="1503886838493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/5615_pro$genericNeuralNet.coverage" NAME="genericNeuralNet Coverage Results" MODIFIED="1508136752254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/influence" />
     <SUITE FILE_PATH="coverage/project$datatest.coverage" NAME="datatest Coverage Results" MODIFIED="1503378936869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitest" />
@@ -36,7 +56,7 @@
           <file leaf-file-name="genericNeuralNet.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/influence/genericNeuralNet.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10764">
+                <state relative-caret-position="0">
                   <caret line="598" column="26" lean-forward="false" selection-start-line="598" selection-start-column="14" selection-end-line="598" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
@@ -56,13 +76,11 @@
             </entry>
           </file>
           <file leaf-file-name="Influ.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scripts/Influ.py">
+            <entry file="file://$PROJECT_DIR$/Influ.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="479">
-                  <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-117">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -83,18 +101,6 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1278">
-                  <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="smooth_hinge.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/influence/smooth_hinge.py">
               <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +123,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="rbf_test.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1278">
-                  <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+                <state relative-caret-position="585">
+                  <caret line="159" column="28" lean-forward="false" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -129,11 +135,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rbf_test_fig.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rbf_test_fig.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/rbf_test_fig.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+                <state relative-caret-position="0">
+                  <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -169,6 +175,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jie_influ" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -181,11 +192,12 @@
         <option value="$PROJECT_DIR$/visualization/visual_utils.py" />
         <option value="$PROJECT_DIR$/influence/smooth_hinge.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
         <option value="$PROJECT_DIR$/scripts/load_animals.py" />
         <option value="$PROJECT_DIR$/influence/genericNeuralNet.py" />
-        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
         <option value="$PROJECT_DIR$/scripts/Influ.py" />
+        <option value="$PROJECT_DIR$/Influ.py" />
+        <option value="$PROJECT_DIR$/scripts/rbf_test_fig.py" />
+        <option value="$PROJECT_DIR$/scripts/rbf_test.py" />
       </list>
     </option>
   </component>
@@ -221,28 +233,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="5615_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5615_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="5615_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5615_final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="5615_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5615_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="influence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5615_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5615_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5615_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5615_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5615_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5615_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="5615_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5615_final" type="462c0819:PsiDirectoryNode" />
               <item name="source_datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5615_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5615_final" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,6 +258,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/project56/bin/python" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source_datasets" />
       <recent name="$PROJECT_DIR$/scripts/output" />
@@ -290,7 +295,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/Influ.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Influ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508481700800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="enable gamma and test_idx input of Influ">
+      <created>1509000374702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509000374702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -431,18 +443,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="0" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27096114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27096114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -452,7 +464,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -502,7 +513,8 @@
     <MESSAGE value="basic command line tool added" />
     <MESSAGE value="basic visualizasion added" />
     <MESSAGE value="before further integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="before further integration" />
+    <MESSAGE value="enable gamma and test_idx input of Influ" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable gamma and test_idx input of Influ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,9 +527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,9 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,9 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,9 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,28 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source_datasets/fruit_data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/influence/smooth_hinge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,40 +775,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/influence/genericNeuralNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10764">
+        <state relative-caret-position="0">
           <caret line="598" column="26" lean-forward="false" selection-start-line="598" selection-start-column="14" selection-end-line="598" selection-end-column="26" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Influ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,10 +793,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/load_animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/influence/smooth_hinge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/rbf_test_fig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rbf_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="159" column="28" lean-forward="false" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Influ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

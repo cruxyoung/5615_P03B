@@ -18,7 +18,7 @@ import scipy.sparse as sparse
 
 sns.set(color_codes=True)
 
-from load_animals import load_animals
+from .load_animals import load_animals
 from influence.image_utils import plot_flat_colorimage, plot_flat_colorgrad
 
 

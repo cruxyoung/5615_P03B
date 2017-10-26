@@ -11,7 +11,7 @@ import sklearn.linear_model as linear_model
 import sklearn.preprocessing as preprocessing
 import scipy
 import scipy.linalg as slin
-from load_animals import load_animals
+from .load_animals import load_animals
 
 import tensorflow as tf
 from tensorflow.contrib.learn.python.learn.datasets import base
@@ -164,7 +164,7 @@ def rbf_svm_influence(gamma = None,
         rbf_predicted_loss_diffs=rbf_predicted_loss_diffs,
     )
 
-    from rbf_test_fig import generate_fig
+    from .rbf_test_fig import generate_fig
 
     generate_fig()
 
