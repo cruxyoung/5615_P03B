@@ -34,8 +34,8 @@ class Influ(object):
 
         np.savez_compressed('data/fake_data', X_train=npX_train, Y_train=npY_train, X_test=npX_test, Y_test=npY_test)
 
-    def cal_influe(self):
-        rbf_svm_influence(test_idx=20)
+    def cal_influe(self, test_idx=None, gamma=None):
+        rbf_svm_influence(test_idx=test_idx,gamma=gamma)
 
 
 
@@ -51,6 +51,6 @@ test = Influ()
 
 # label = "shops_used"
 # test.convert(feature, label=label)
-test.cal_influe()
+test.cal_influe(50)
 # test.visualization()
 # print(test.dataset)
