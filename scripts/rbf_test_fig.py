@@ -24,9 +24,7 @@ from ..influence.image_utils import plot_flat_colorimage, plot_flat_colorgrad
 
 def generate_fig(scale = None):
     num_classes = 2
-    # num_train_ex_per_class = 330
-    # num_test_ex_per_class = 110
-
+    # The num of train and test doesnt matter
     num_train_ex_per_class = 180
     num_test_ex_per_class = 60
 
@@ -71,9 +69,7 @@ def generate_fig(scale = None):
     if scale is None:
         scale = 0.03
     axs.set_ylim(-scale, scale)
-    # c = pow(10,-1000000000000)
-    # print(c)
-    # axs[0].set_ylim(-0.03*c, 0.03*c)
+    
 
     axs.set_yticks((-scale, 0, scale))
     axs.ticklabel_format(style='sci', scilimits=(0,0), axis='y')

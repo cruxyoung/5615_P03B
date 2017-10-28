@@ -11,6 +11,7 @@ class Influ(object):
     def __init__(self):
         self.dataset = None
 
+    # load data from the specified file
     def load_data(self, filename):
         if '.csv' in filename:
             self.dataset = pd.read_csv(filename)
@@ -21,11 +22,11 @@ class Influ(object):
         else:
             return 'file type not supported'
 
-
+    # convert the data into correct format
     def convert(self, feature, label):
         X = self.dataset[feature]
         Y = self.dataset[label]
-
+        # split training, testing data
         X_train, X_test, y_train, y_test = train_test_split(X, Y, random_state=0)
 
         npX_train = X_train.values
@@ -35,13 +36,13 @@ class Influ(object):
 
         np.savez_compressed('fake_data', X_train=npX_train, Y_train=npY_train, X_test=npX_test, Y_test=npY_test)
         
-
+    # train the compute influence
     def cal_influe(self, test_idx=None, gamma=None):
         rbf_svm_influence(test_idx=test_idx,gamma=gamma)
 
 
 
-
+    # change scale for different view
     def visualization(self, scale = None):
         generate_fig(scale = scale)
 

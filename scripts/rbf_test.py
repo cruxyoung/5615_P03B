@@ -52,14 +52,12 @@ def rbf_svm_influence(gamma = None,
     num_test = X_test.shape[0]
 
     X_stacked = np.vstack((X_train, X_test))
-    # print(X_stacked)
     # gamma need to be changed min = 0.00002
     # 0.000013 current best for fdata
-    # 0.00078best for fakedata600
-    # gamma = 0.000013
+    # 0.00078best for fakedata
+    # this value needs to be changed for different type of data
     if gamma is None:
         gamma = 0.00078
-    # gamma = 0.05
     weight_decay = 0.0001
 
     K = rbf_kernel(X_stacked, gamma = gamma / num_train)
