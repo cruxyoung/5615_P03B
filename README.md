@@ -88,3 +88,5 @@ a_directory
 |-- your_dataset
 ```
 
+## Reference
+The code for computing the influence function which is stored in influence directory is adapted from the work of https://github.com/kohpangwei/influence-release/
